@@ -1,10 +1,3 @@
-def fib(n):
-    a, b = 0, 1
-    for _ in range(n):
-        yield a
-        a, b = b, a + b
+a = {'a':1,'c':-1,'e':5,'g':3}
 
-print(list(fib(5)))
-    
-num = int(input())
-fib(num)
+sorted(a)
